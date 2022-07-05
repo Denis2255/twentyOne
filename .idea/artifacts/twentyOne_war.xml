@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="twentyOne:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>twentyOne</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="twentyOne-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="twentyOne:war exploded" />
+    </root>
+  </artifact>
+</component>
